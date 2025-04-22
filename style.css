@@ -54,7 +54,13 @@ a{
 .nav ul li{
     font-size: 18px;
     font-weight: 400px;
+    transition: 0.3s;
+    cursor: pointer;
 
+}
+
+.nav ul li:hover{
+    color: #F26440;
 }
 
 .header .buttom{
@@ -100,7 +106,11 @@ a{
 
 main {
     margin-top: 99px;
-    margin-left: 74px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    justify-content: center;
+    align-items: center;
 }
 
 .main-services{
@@ -108,8 +118,9 @@ main {
     justify-content: center;
 }
 
-.main-services .services{
+ .services{
    display: flex;
+   justify-content: space-between;
    flex-direction: row;
    gap: 128px;
 }
@@ -118,3 +129,128 @@ main {
     font-size: 48px;
     font-weight: 600;
 }
+
+.services p {
+    margin-top: 20px;
+}
+.main-services{
+    display: flex;
+    flex-direction: column;
+}
+
+.list-services{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+
+}
+
+.services-grid{
+    display: flex;
+    flex-direction: column;
+    width: 309px;
+    height: auto;
+    /* background-color: red; */
+}
+
+.services-grid h3{
+    margin-bottom: 5px;
+}
+
+.services-grid .txt-services{
+    margin-bottom: 30px;
+}
+
+.services-grid .service-grid-img {
+    width: 309px;
+    height: 400px;
+    margin-bottom: 19px;
+
+}
+
+.contact{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 165px;
+    height: 35px;
+    gap:8px;
+}
+
+.contact p {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.contact p:hover{
+    color: #F26440;
+}
+
+.contact .arrow-simbol {
+    width: 51px;
+    height: auto;
+}
+
+.count-data{
+    margin-top: 100px;
+    background-color: #286F6C;
+    width: 100%;
+
+}
+
+.count-data .content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 66px auto 66px auto;
+}
+
+.count-data .content .list-count{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    gap: 68px;
+
+}
+
+.count-data .content .list-count .count{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+
+}
+
+.count-data .content .list-count .count div{
+    display: flex;
+    flex-direction: column;
+    height: 95px;
+    
+}
+
+.count-data .content .list-count .count div h3{
+    color: #F26440;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom:6px;
+}
+
+.count-data .content .list-count .count div p{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 0.35;
+
+}
+
+.count-data .content h1{
+    text-align: start;
+    font-size: 36px;
+    font-weight: 600px;
+    color: #ffffff;
+}
+
+
+
+
