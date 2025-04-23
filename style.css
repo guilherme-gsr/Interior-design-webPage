@@ -196,6 +196,7 @@ main {
     margin-top: 100px;
     background-color: #286F6C;
     width: 100%;
+    margin-bottom: 100px;
 
 }
 
@@ -212,13 +213,14 @@ main {
     display: flex;
     flex-direction: row;
     gap: 68px;
+    flex-wrap: wrap;
 
 }
 
 .count-data .content .list-count .count{
     display: flex;
     flex-direction: row;
-    overflow: hidden;
+    
 
 }
 
@@ -250,6 +252,137 @@ main {
     font-weight: 600px;
     color: #ffffff;
 }
+
+.experience{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1214px;
+    max-height: 550px;
+}
+
+.exp-txt{
+    margin-top: 19px;
+    width: 637px;
+    height: 513px;
+}
+
+.experience .exp-txt h1{
+    font-size: 48px;
+    font-weight: 600;
+
+}
+
+.experience .exp-txt p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2.45;
+    margin-top: 25px;
+
+}
+
+.experience a{
+    color: #fff;
+    padding: 15px 20px;
+    background-color: #F26440;
+}
+
+.exp-txt .bottom{
+    margin-top: 55px;
+}
+
+.blog{
+
+    margin-top: 94px;
+    height: 825px;
+}
+
+.blog .blog-header{
+    text-align: center;
+}
+
+.blog .blog-header h1 {
+    font-size:48px;
+    font-weight: 600;
+}
+
+.blog .blog-header p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.blog-grid {
+    width: 1286px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 38px;
+    margin-top: 71px;
+    width: 1286px;
+
+}
+
+.blog-grid .grid-1 p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2.35;
+}
+
+.blog-grid .grid-1 h2{
+    margin-top: 6px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.blog-grid .grid-1 .blog-p-grid-1{
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2.35;
+    margin-bottom: 40px;
+
+}
+
+.grid-2 .grid-2-img{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    width: 763px;
+    gap: 20px;
+
+}
+
+.grid-2 .grid-2-img div{
+    margin-bottom: 23px;
+}
+
+.grid-2 .grid-2-img .blog-txt p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+.grid-2 .grid-2-img .blog-txt h4{
+
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 5px;    
+}
+
+.grid-2 .grid-2-img .blog-txt .txt-p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* .testimonial{
+
+    margin-top: 100px;
+    background-color: #286F6C;
+    width: 100%;
+
+
+} */
+
+
+
 
 
 
