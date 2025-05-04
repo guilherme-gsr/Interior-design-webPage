@@ -476,6 +476,87 @@ main {
 
 }
 
+footer{
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    overflow: hidden;
+}
+
+.footer .email{
+    margin-top: 118px;
+    margin-bottom: 118px;
+}
+
+footer section h1{
+    font-size: 36px;
+    font-weight: 400;
+
+}
+footer section p{
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 50%;
+
+}
+
+.email-form{
+    margin-top: 50px;
+}
+
+.email-form form input{
+    background-color: #2A2A2A; 
+    border-radius: 5px;
+    width: 380px;
+    height: 60px;
+    border: none;
+}
+
+.email-form form input::placeholder{       
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+  padding-left: 30px;
+}
+
+.email-form form input[type="email"]{
+    color: white;
+}
+
+.email-form form{
+    display: flex;
+    justify-content: center;
+}
+
+
+.email-form form button{
+    border: none;
+    border-radius: 5px;
+    color:#ffffff;
+    background-color: #F26440;
+    width: 160px;
+    height: 60px;
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.nav-footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 75px 54px 75px;
+}
+
+.nav-footer .nav ul{
+    gap: 40px;
+}
+
+.nav-footer .nav ul li:hover{
+    color: #F26440;
+}
+
 
 
 
